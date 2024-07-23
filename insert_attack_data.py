@@ -2,7 +2,7 @@ import requests
 from py2neo import Graph, Node
 
 # Connect to Neo4j
-graph = Graph("bolt://localhost:7687", auth=("neo4j", "15Ch@05E"))
+graph = Graph("bolt://localhost:7687", auth=("neo4j", "password"))
 
 
 # Function to download and parse JSON data from URL

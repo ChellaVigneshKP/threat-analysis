@@ -6,7 +6,7 @@ from neo4j import GraphDatabase
 # Connect to Neo4j database
 uri = "bolt://localhost:7687"
 username = "neo4j"
-password = "15Ch@05E"
+password = "password"
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
 # URL of the JSON-LD data
